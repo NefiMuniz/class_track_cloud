@@ -8,7 +8,7 @@ ClassTrack allows students and learners to organize their academic workload by c
 
 The purpose of writing this software is to build practical experience with cloud databases while creating a tool that solves a real problem: helping learners stay organized and motivated by visualizing their academic progress. Unlike traditional localStorage-based applications, ClassTrack demonstrates how to architect a production-ready application with proper data isolation, security rules, and multi-user support.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/cJlSwSb0BuM)
 
 ---
 
