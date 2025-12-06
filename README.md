@@ -86,6 +86,7 @@ The application uses Firestore's `.onSnapshot()` listeners to automatically upda
 - **IDE**: Visual Studio Code (VSCode) for code editing, debugging, and Git integration
 - **Version Control**: Git & GitHub for source control and collaboration
 - **Cloud Platform**: Google Firebase Console for database management, authentication, and security rules
+- **Deployment**: Vercel for serverless frontend hosting with automatic CI/CD deployments from GitHub
 - **Package Manager**: NPM for dependency management
 - **Local Development Server**: Node.js development server with hot reload
 - **Browser**: Chrome DevTools for debugging, network analysis, and real-time inspection

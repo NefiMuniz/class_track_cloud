@@ -19,7 +19,7 @@ import { db } from '../config/firebase';
 export const addAssignment = async (userId, assignmentData) => {
 try {
 const docRef = await addDoc(collection(db, 'assignments'), {
-userId,
+uid: userId,
 ...assignmentData,
 completed: false,
 createdAt: new Date(),
