@@ -20,7 +20,7 @@ import { db } from "../config/firebase";
 export const addCourse = async (userId, courseData) => {
   try {
     const docRef = await addDoc(collection(db, "courses"), {
-      uid: userId,
+      userId,
       ...courseData,
       createdAt: new Date(),
     });
